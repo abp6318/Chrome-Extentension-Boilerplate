@@ -1,4 +1,16 @@
 body {
     min-width: 300px;
-    background-color: lightcyan;
+    max-height: 500px;
+    background-color: #155fc7;
+}
+
+img{
+    display: flex;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.bigger{
+    font-size: 1rem;
 }
