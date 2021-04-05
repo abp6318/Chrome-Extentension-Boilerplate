@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Aaron Putterman - April 05, 2021 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linked stylesheet -->
     <link href="./assets/css/popup.css" rel="stylesheet">
+
+    <!-- me using Materialize because I'm lazy -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
     <!-- icon + heading -->
     <img src="./assets/images/badge.png" alt="Localhost Logo">
+
+    <!-- links -->
     <div class="collection">
         <a href="https://ritlocalhost.slack.com/" target="_blank" class="collection-item"><span class="bigger">Slack</span><span class="badge" data-badge-caption="Join the discussion!"></span></a>
         <a href="https://campusgroups.rit.edu/LOCALHOST/club_signup" target="_blank" class="collection-item"><span class="bigger">CampusGroups</span><span class="badge" data-badge-caption="Join our email list!"></span></a>
         <a href="mailto:localhost@rit.edu" target="_blank" class="collection-item"><span class="bigger">Email</span><span class="badge" data-badge-caption="Contact us!"></span></a>
     </div>
 
+    <!-- take over button -->
+    <a class="waves-effect waves-light btn" id="take-over">Take Over</a>
+
+    <p></p>
+
+    <!-- linked script -->
     <script src="./assets/js/popup.js"></script>
 </body>
 </html>
